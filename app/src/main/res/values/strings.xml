@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TuluyanApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app1">Welcome to</string>
+    <string name="app2">Discover your ideal boarding house.</string>
+    <string name="app3">tuluyan.</string>
+    <string name="app4">Are you a user?</string>
+    <string name="app5">Are you an owner?</string>
+    <string name="app6">Username</string>
+    <string name="app7">Password</string>
+    <string name="app8">Forgot Password?</string>
+    <string name="app9">Create Account?</string>
+    <string name="app10">Login</string>
+    <string name="app11">Or Sign up with</string>
+    <string name="app12">Create Account</string>
+    <string name="app13">By registering, you are agreeing with our <font color="#007BFF">Terms of Use </font> and <font color="#007BFF">Privacy Policy</font></string>
+    <string name="app14">Already have an account?</string>
+    <string name="app15">Register</string>
+    <string name="app16">Google</string>
+    <string name="app17">Facebook</string>
+    <string name="app18">Apple</string>
+    <string name="app19">Your Location</string>
+    <string name="app20">Home</string>
+    <string name="app21">Map</string>
+    <string name="app22">Search</string>
+    <string name="app23">Activity</string>
+    <string name="app24">Profile</string>
+    <string name="app25"> </string>
+    <string name="app26"> </string>
+    <string name="app27"> </string>
+
+</resources>
