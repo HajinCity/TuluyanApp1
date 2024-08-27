@@ -26,8 +26,8 @@
     <string name="app22">Search</string>
     <string name="app23">Activity</string>
     <string name="app24">Profile</string>
-    <string name="app25"> </string>
-    <string name="app26"> </string>
+    <string name="app25">Near you</string>
+    <string name="app26">New Listing</string>
     <string name="app27"> </string>
 
 </resources>
