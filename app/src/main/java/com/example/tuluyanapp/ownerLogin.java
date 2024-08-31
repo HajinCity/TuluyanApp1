@@ -3,6 +3,7 @@ package com.example.tuluyanapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,7 +28,16 @@ public class ownerLogin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Create an intent to start MainActivity3
-                Intent intent = new Intent(ownerLogin.this, MainActivity3.class);
+                Intent intent = new Intent(ownerLogin.this, MainActivity4.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView textView = findViewById(R.id.textView8);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ownerLogin.this, ownerCreateAcc.class);
                 startActivity(intent);
             }
         });
