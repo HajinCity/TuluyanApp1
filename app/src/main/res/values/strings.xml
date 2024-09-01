@@ -37,6 +37,9 @@
     <string name="app34"> </string>
     <string name="app35"> </string>
     <string name="app36"> </string>
+    <string name="privacy">
+    By registering, you are agreeing with our <a href="http://www.yourwebsite.com/terms" style="color:blue;">Terms of Use</a> and <a href="http://www.yourwebsite.com/privacy" style="color:blue;">Privacy Policy</a>.
+</string>
 
 
 </resources>
