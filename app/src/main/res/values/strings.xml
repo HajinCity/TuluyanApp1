@@ -14,7 +14,7 @@
     <string name="app10">Login</string>
     <string name="app11">Or Sign up with</string>
     <string name="app12">Create Account</string>
-    <string name="app13">By registering, you are agreeing with our <font color="#007BFF">Terms of Use </font> and <font color="#007BFF">Privacy Policy</font></string>
+    <string name="app13">By registering, you are agreeing with our <a href="http://www.yourwebsite.com/terms" style="color:blue;">Terms of Use</a> and <a href="http://www.yourwebsite.com/privacy" style="color:blue;">Privacy Policy</a>.</string>
     <string name="app14">Already have an account?</string>
     <string name="app15">Register</string>
     <string name="app16">Google</string>
@@ -37,6 +37,9 @@
     <string name="app34"> </string>
     <string name="app35"> </string>
     <string name="app36"> </string>
+    <string name="privacy">
+    By registering, you are agreeing with our <a href="http://www.yourwebsite.com/terms" style="color:blue;">Terms of Use</a> and <a href="http://www.yourwebsite.com/privacy" style="color:blue;">Privacy Policy</a>.
+</string>
 
 
 </resources>
