@@ -33,10 +33,10 @@
     <string name="app30">Confirm Password</string>
     <string name="app31">Name</string>
     <string name="app32">Email Address</string>
-    <string name="app33"> </string>
-    <string name="app34"> </string>
-    <string name="app35"> </string>
-    <string name="app36"> </string>
+    <string name="forgottxt">Enter the email or phone number, we will send you the OTP.</string>
+    <string name="app34">Enter the email or phone number</string>
+    <string name="app35">Welcome back</string>
+    <string name="app36">Lucy,</string>
     <string name="privacy">
     By registering, you are agreeing with our <a href="http://www.yourwebsite.com/terms" style="color:blue;">Terms of Use</a> and <a href="http://www.yourwebsite.com/privacy" style="color:blue;">Privacy Policy</a>.
 </string>
