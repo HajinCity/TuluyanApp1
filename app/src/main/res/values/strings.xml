@@ -36,7 +36,18 @@
     <string name="forgottxt">Enter the email or phone number, we will send you the OTP.</string>
     <string name="app34">Enter the email or phone number</string>
     <string name="app35">Welcome back</string>
-    <string name="app36">Lucy,</string>
+    <string name="app37">Lucy,</string>
+    <string name="app39">No. of</string>
+    <string name="app40">Listings</string>
+    <string name="app41">Engagements</string>
+    <string name="app42">views per day</string>
+    <string name="app43">Popular listing</string>
+    <string name="app44"></string>
+    <string name="app45"></string>
+    <string name="app46"></string>
+    <string name="app47"></string>
+    <string name="app48"></string>
+
     <string name="privacy">
     By registering, you are agreeing with our <a href="http://www.yourwebsite.com/terms" style="color:blue;">Terms of Use</a> and <a href="http://www.yourwebsite.com/privacy" style="color:blue;">Privacy Policy</a>.
 </string>
