@@ -7,11 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".fragments.profilepage">
 
+
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="63dp"
-        android:layout_height="13dp"
-        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
