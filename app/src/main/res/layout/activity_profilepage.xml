@@ -8,13 +8,171 @@
     tools:context=".fragments.profilepage">
 
 
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="462dp"
+        android:layout_height="118dp"
+        android:src="@drawable/blue_bg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="457dp"
+        android:layout_height="119dp"
+        android:src="@drawable/ellipse"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+
     <TextView
-        android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/app50"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app51"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/luffy"
+        tools:ignore="MissingClass,MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/editTextProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/bookmark"
+        android:drawablePadding="25dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/app44"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/editTextBookmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_rounded"
+        android:drawableStart="@drawable/edit"
+        android:drawablePadding="15dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        android:ems="10"
+        android:hint="@string/app49"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <EditText
+        android:id="@+id/editTextSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/setting"
+        android:drawablePadding="25dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/app47"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <EditText
+        android:id="@+id/editTextApplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/document"
+        android:drawablePadding="25dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/app45"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editTextHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/question"
+        android:drawablePadding="25dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/app46"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <EditText
+        android:id="@+id/editTextLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/logout"
+        android:drawablePadding="25dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/app48"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:textColorHint="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
