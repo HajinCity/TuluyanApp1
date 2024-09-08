@@ -35,7 +35,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="36dp" />
 
     <TextView
@@ -45,8 +45,9 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="83dp" />
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circularImageView"
@@ -55,9 +56,8 @@
         android:layout_centerInParent="true"
         android:src="@drawable/luffy"
         tools:ignore="MissingClass,MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="36dp" />
-
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="38dp" />
 
     <EditText
         android:id="@+id/editTextProfile"
