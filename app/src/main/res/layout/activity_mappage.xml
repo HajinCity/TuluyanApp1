@@ -18,10 +18,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="116dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="23dp"
-            tools:ignore="UselessParent">
+            android:padding="23dp">
 
             <TextView
                 android:id="@+id/textView14"
@@ -36,11 +35,11 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="100dp"
             android:background="@drawable/blue_bg"
-            android:textColor="@color/white"
-            android:layout_marginStart="120dp"
-            android:layout_marginEnd="120dp"
-            android:layout_marginTop="650dp"
-            android:text="@string/app11" />
+            android:text="@string/app11"
+            android:textColor="@color/white" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
