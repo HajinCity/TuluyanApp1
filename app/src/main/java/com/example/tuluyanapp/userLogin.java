@@ -32,11 +32,22 @@ public class userLogin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         TextView textView = findViewById(R.id.textView11);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(userLogin.this, userCreateAcc.class);
+                startActivity(intent);
+            }
+        });
+
+        // Correcting the reference to textView1
+        TextView textView1 = findViewById(R.id.textView10);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(userLogin.this, userfgp.class); // Navigating to userfgp
                 startActivity(intent);
             }
         });

@@ -41,5 +41,13 @@ public class ownerLogin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        TextView textView1 = findViewById(R.id.textView7);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ownerLogin.this, ownerfgp.class);
+                startActivity(intent);
+            }
+        });
     }
 }
