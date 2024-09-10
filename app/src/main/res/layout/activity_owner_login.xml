@@ -116,18 +116,18 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
+        android:layout_width="339dp"
+        android:layout_height="53dp"
         android:background="@drawable/blue_bg"
         android:text="@string/app10"
         android:textColor="@color/white"
         android:textSize="23sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.692" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.626" />
 
     <TextView
         android:id="@+id/textView9"
@@ -143,10 +143,11 @@
         app:layout_constraintVertical_bias="0.758" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -158,23 +159,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/rental4"
-            android:contentDescription="@string/app1"/>
+            android:contentDescription="@string/app1"
+            app:srcCompat="@drawable/rental4" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/rental5"
-            android:contentDescription="@string/app1"/>
+            android:contentDescription="@string/app1"
+            app:srcCompat="@drawable/rental5" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/rental6"
-            android:contentDescription="@string/app1"/>
+            android:contentDescription="@string/app1"
+            app:srcCompat="@drawable/rental6" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
