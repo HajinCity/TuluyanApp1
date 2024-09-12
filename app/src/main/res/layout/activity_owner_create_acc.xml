@@ -22,6 +22,7 @@
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:padding="15dp"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textStyle="bold"
         android:layout_marginStart="30dp"
@@ -47,32 +48,31 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="match_parent"
+        android:layout_width="266dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
         android:lineSpacingExtra="6dp"
         android:text="@string/privacy"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextConfrim"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextConfrim"
+        app:layout_constraintVertical_bias="0.079" />
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginbtn"
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/app14"
-        android:textColor="@color/lightgray"
+        android:textColor="@color/black"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,10 +117,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -135,6 +134,7 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:padding="15dp"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textStyle="bold"
         android:layout_marginStart="30dp"
@@ -159,6 +159,7 @@
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:padding="15dp"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textStyle="bold"
         android:layout_marginStart="30dp"
@@ -171,7 +172,7 @@
         app:layout_constraintVertical_bias="0.283" />
 
     <EditText
-        android:id="@+id/editTextTextName"
+        android:id="@+id/editTextTextEmail1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="170dp"
@@ -182,6 +183,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="@string/app31"
+        android:textColor="@color/black"
         android:minHeight="48dp"
         android:padding="15dp"
         android:textColorHint="@color/black"
