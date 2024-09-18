@@ -97,7 +97,7 @@
                 android:id="@+id/textView28"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app25"
+                android:text="@string/app26"
                 android:textColor="@color/black"
                 android:textSize="26sp"
                 android:textStyle="bold"
