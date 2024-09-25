@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -33,12 +34,22 @@ android {
 
 dependencies {
 
+
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation("com.google.firebase:firebase-auth:22.1.1")
+    implementation("com.google.android.gms:play-services-auth:20.6.0")
+    implementation("com.facebook.android:facebook-android-sdk:latest.release")
+    implementation("com.google.android.gms:play-services-auth-api-phone:18.0.1")
+
+
 }

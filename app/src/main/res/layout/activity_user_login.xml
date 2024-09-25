@@ -158,7 +158,7 @@
         app:layout_constraintVertical_bias="0.118">
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/google_sign_in_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -166,7 +166,7 @@
             app:srcCompat="@drawable/rental4" />
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/facebook_login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -174,7 +174,7 @@
             app:srcCompat="@drawable/rental5" />
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/apple_sign_in_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

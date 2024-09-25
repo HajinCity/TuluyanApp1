@@ -1,4 +1,6 @@
 <resources>
+    <string name="default_web_client_id">973930498755-c45vbq8ma07d2e50gi7rri91q1u8ige5.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">https://tuluyan-user-login.firebaseapp.com/__/auth/handler</string>
     <string name="app_name">TuluyanApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
