@@ -23,6 +23,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
