@@ -1,5 +1,6 @@
 package com.example.tuluyanapp.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +11,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.tuluyanapp.MainActivity2;
 import com.example.tuluyanapp.R;
+import com.example.tuluyanapp.help;
+import com.example.tuluyanapp.userLogin;
 
 public class profilepage extends Fragment {
 
@@ -24,7 +28,7 @@ public class profilepage extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.user_profile, container, false);
+        View view = inflater.inflate(R.layout.new_profile, container, false);
 
         // Set up window insets for edge-to-edge layout
         ViewCompat.setOnApplyWindowInsetsListener(view, (v, insets) -> {
@@ -36,5 +40,11 @@ public class profilepage extends Fragment {
         return view;
     }
 
-
+    findViewById(R.id.editTextHelp).setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent userLoginIntent = new Intent(profilepage.this, help.class);
+            startActivity(userLoginIntent);
+        }
+    });
 }
