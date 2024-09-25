@@ -12,11 +12,11 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="140dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/bookmark"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="-20dp">
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/circularImageView"
