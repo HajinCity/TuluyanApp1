@@ -68,7 +68,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/setting"
+        android:drawableLeft="@drawable/newsettings"
         android:hint="@string/app47"
         android:minHeight="48dp"
         android:padding="15dp"
