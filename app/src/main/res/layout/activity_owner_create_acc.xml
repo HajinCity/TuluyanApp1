@@ -188,6 +188,7 @@
         android:padding="15dp"
         android:textColorHint="@color/black"
         android:textStyle="bold"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
