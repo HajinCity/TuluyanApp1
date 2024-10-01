@@ -101,6 +101,8 @@ public class ownerCreateAcc extends AppCompatActivity {
     private void storeOwnerData(String name, String email, String password) {
         // Create a new landlord data map
         Map<String, Object> landlordData = new HashMap<>();
+        String uid = mAuth.getCurrentUser().getUid(); // Get the UID of the newly created user
+
         landlordData.put("First-Name", name);
         landlordData.put("useraccount", email);
         landlordData.put("Address", "");
@@ -110,11 +112,11 @@ public class ownerCreateAcc extends AppCompatActivity {
         landlordData.put("email", email);
         landlordData.put("password", password);  // Store the password
         landlordData.put("profilepic", "");
-        landlordData.put("landlord", "");
+        landlordData.put("landlord", mAuth.getCurrentUser().getUid());
 
         // Store in Firestore under the collection "landlordcollection"
         db.collection("landlordcollection")
-                .document(mAuth.getCurrentUser().getUid())  // Use the UID as the document ID
+                .document(uid)  // Use the UID as the document ID
                 .set(landlordData)
                 .addOnSuccessListener(aVoid -> {
                     // Success message or any additional actions

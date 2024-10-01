@@ -85,7 +85,7 @@ public class userCreateAcc extends AppCompatActivity {
                         progressBar.setVisibility(View.GONE);
                         if (task.isSuccessful()) {
                             // Store user data in Firestore
-                            storeUserData(name, email, password);
+                            storeUserData(name, email); // Call without password
 
                             Toast.makeText(userCreateAcc.this, "Account created successfully.", Toast.LENGTH_SHORT).show();
                             // Redirect to login page or main dashboard
@@ -98,7 +98,7 @@ public class userCreateAcc extends AppCompatActivity {
         });
     }
 
-    private void storeUserData(String name, String email, String password) {
+    private void storeUserData(String name, String email) {
         // Create a new user data map
         Map<String, Object> tenantData = new HashMap<>();
         tenantData.put("First-Name", name);
@@ -110,9 +110,8 @@ public class userCreateAcc extends AppCompatActivity {
         tenantData.put("Last-Name", "");
         tenantData.put("Middle-Name", "");
         tenantData.put("email", email);
-        tenantData.put("password", password);  // Store the password
         tenantData.put("profilepic", "");
-        tenantData.put("tenant", "");
+        tenantData.put("tenant", mAuth.getCurrentUser().getUid()); // Use UID directly
 
         // Store in Firestore under the collection "tenantcollection"
         db.collection("tenantcollection")
