@@ -91,6 +91,8 @@
     <string name="privacy">
     By registering, you are agreeing with our <a href="http://www.yourwebsite.com/terms" style="color:blue;">Terms of Use</a> and <a href="http://www.yourwebsite.com/privacy" style="color:blue;">Privacy Policy</a>.
 </string>
+    <string name="listing_information">Listing Information</string>
+    <string name="add_images">Add Images</string>
 
 
 </resources>
